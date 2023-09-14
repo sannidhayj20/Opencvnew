@@ -5,7 +5,7 @@ import numpy as np
 import math
 
 
-cap = cv2.VideoCapture("D:\\Basketball Trajectory\\Videos\\vid (6).mp4")
+cap = cv2.VideoCapture("D:\\Basketball Trajectory\\Videos\\vid (6).mp4")#list of videos which can be found in Rescources
 myColorFinder = ColorFinder(False)
 hsvVals = {'hmin': 8, 'smin': 124, 'vmin': 13, 'hmax': 24, 'smax': 255, 'vmax': 255}
 
